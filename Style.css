@@ -1,0 +1,39 @@
+.container{
+
+    text-align: center;
+    width: 30%;
+    padding: 50px;
+    margin-top: 10%;
+    margin-left: 32%;
+    box-shadow: 10px;
+    border-style:outset;
+    border-radius: 30px;
+    background-color: rgb(227, 225, 225);
+    border-color:rgb(183, 178, 178);
+    border-width: 3px;
+
+}
+.container:hover{
+        transform: scale(1.1,1.1);
+        transition-duration: 1s;
+    
+}
+.Sub{
+    padding: 5px;
+    border-radius: 9px;
+    border-width:0px;
+    background-color: gray;
+    color: rgb(253, 253, 253);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Sub:hover{
+    background-color: rgb(249, 252, 252);
+    color: rgb(3, 39, 39);
+    transform: scale(1.2,1.2);
+    transition-duration: 0.3s;
+}
+.Sub:active{
+    background-color: gray;
+    color: rgb(253, 253, 253);
+}
